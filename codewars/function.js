@@ -6,7 +6,7 @@ function findShortWord(s){
         wordLength.push(word.length)
     }
     let shortWord = Math.min(...wordLength);
-    
-    return shortWord;
+    words.filter((n => n.length === shortWord))
+    return words;
 }
 console.log(findShortWord("i love you more"));
