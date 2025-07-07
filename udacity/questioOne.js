@@ -3,13 +3,16 @@ function multiply(a,b){
         return a * b;
     }
     else{
-        if (Number.isInteger(a)){
+        if (!isNaN(a)){
             return a*2;
         }
         else if(Array.isArray(a)){
             return a.map((n) => n*2);
 
         }
+        else{
+            return "invalid input";
+        }
     }
 }
-console.log(multiply(2));
+console.log(multiply("l"));
