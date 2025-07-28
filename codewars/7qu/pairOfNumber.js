@@ -9,4 +9,4 @@ function generatePairs(n) {
   }  
   return result;
 }
-console.log
+console.log(generatePairs(3))
