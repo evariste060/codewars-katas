@@ -5,4 +5,4 @@ function getDivisorsCnt(n){
   }
     return count+1;
 }
-console.log(getDivisorsCnt())
+console.log(getDivisorsCnt(3))
